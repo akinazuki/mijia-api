@@ -11,4 +11,4 @@
 }
 ```
 
-[How To Get Authorize Info](https://satori.moe/mijia-api-reverse)
+[How To Get Authorize Info](https://satori.moe/mijia-api-authorize-info)
