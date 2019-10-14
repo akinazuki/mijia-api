@@ -1,0 +1,10 @@
+{
+  "name": "mijia-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Akechi Satori",
+  "license": "GPLv3",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
