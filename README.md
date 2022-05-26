@@ -11,7 +11,7 @@
 }
 ```
 
-[How To Get Authorize Info](https://satori.moe/mijia-api-authorize-info)
+[How To Get Authorize Info](https://gist.github.com/SumiMakito/47b6ddd83695039f2e18feb2e7b40b37)
 
 ### Run Example
 
