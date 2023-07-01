@@ -1,0 +1,1079 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "base.apk"
+  ],
+  "treeExpansions": [
+    [
+      "_m_j",
+      "源代码",
+      "base.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.oq6$OooO0O0",
+          "shortId": "onResponse(Lokhttp3/Call;Lokhttp3/Response;)V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 88
+        },
+        "comment": "no gziped data, directly RC4 decrypt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6",
+          "shortId": "OooO(Lcom/xiaomi/smarthome/core/entity/net/NetRequest;L_m_j/bq6;)L_m_j/cq6;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 1308
+        },
+        "comment": "???"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6$OooO0O0",
+          "shortId": "onResponse(Lokhttp3/Call;Lokhttp3/Response;)V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 1080
+        },
+        "comment": "SmartHome gziped response"
+      }
+    ],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.a3f"
+        },
+        "newName": "Buffer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.by9"
+        },
+        "newName": "base64"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.cq6"
+        },
+        "newName": "RequestHandler"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.cy9"
+        },
+        "newName": "signer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.dy9"
+        },
+        "newName": "RC4Encryption"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.ey9"
+        },
+        "newName": "RC4DropCoder"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.h3f"
+        },
+        "newName": "gzip"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.j51"
+        },
+        "newName": "StringBuilderWrapper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.oq6"
+        },
+        "newName": "RouterApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.oq6$OooO0O0"
+        },
+        "newName": "networkReqCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.q3f"
+        },
+        "newName": "InflatedBuffer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.vq6"
+        },
+        "newName": "SmartHomeApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "_m_j.vq6$OooO0O0"
+        },
+        "newName": "networkReqCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest$OooO0O0"
+        },
+        "newName": "Req"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "_m_j.cy9",
+          "shortId": "OooO00o:Ljava/util/Random;"
+        },
+        "newName": "srand"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "_m_j.dy9",
+          "shortId": "OooO0OO:[B"
+        },
+        "newName": "s_box"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "_m_j.ey9",
+          "shortId": "OooO00o:[B"
+        },
+        "newName": "dummpArray"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "_m_j.ey9",
+          "shortId": "OooO0O0:L_m_j/dy9;"
+        },
+        "newName": "rc4instance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "_m_j.oq6",
+          "shortId": "OooO0OO:Lokhttp3/OkHttpClient;"
+        },
+        "newName": "client"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "_m_j.oq6",
+          "shortId": "OooO0Oo:Ljava/net/CookieManager;"
+        },
+        "newName": "cookie_manager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "_m_j.oq6",
+          "shortId": "OooO0o0:Lcom/xiaomi/youpin/login/entity/account/MiServiceTokenInfo;"
+        },
+        "newName": "MiServiceTokenInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "_m_j.oq6$OooO0O0",
+          "shortId": "OooOo00:Landroid/util/Pair;"
+        },
+        "newName": "params_pair"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "_m_j.vq6",
+          "shortId": "OooO0Oo:Lokhttp3/OkHttpClient;"
+        },
+        "newName": "request_instance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "_m_j.vq6$OooO0O0",
+          "shortId": "OooOo:Landroid/util/Pair;"
+        },
+        "newName": "request_pair"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "_m_j.vq6$OooO0O0",
+          "shortId": "OooOoO0:Lcom/xiaomi/youpin/login/entity/account/MiServiceTokenInfo;"
+        },
+        "newName": "miServiceTokenInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.KeyValuePair",
+          "shortId": "OooOOoo:Ljava/lang/String;"
+        },
+        "newName": "key"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.KeyValuePair",
+          "shortId": "OooOo00:Ljava/lang/String;"
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest",
+          "shortId": "OooOOoo:Ljava/lang/String;"
+        },
+        "newName": "method"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest",
+          "shortId": "OooOo00:Ljava/lang/String;"
+        },
+        "newName": "path"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest",
+          "shortId": "OooOo0:Ljava/lang/String;"
+        },
+        "newName": "prefix"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest",
+          "shortId": "OooOo0O:Ljava/util/List;"
+        },
+        "newName": "headers"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest",
+          "shortId": "OooOo0o:Ljava/util/List;"
+        },
+        "newName": "params"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest$OooO0O0",
+          "shortId": "OooO00o:Ljava/lang/String;"
+        },
+        "newName": "method"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest$OooO0O0",
+          "shortId": "OooO0O0:Ljava/lang/String;"
+        },
+        "newName": "path"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest$OooO0O0",
+          "shortId": "OooO0OO:Ljava/lang/String;"
+        },
+        "newName": "prefix"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest$OooO0O0",
+          "shortId": "OooO0Oo:Ljava/util/List;"
+        },
+        "newName": "headers"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest$OooO0O0",
+          "shortId": "OooO0o0:Ljava/util/List;"
+        },
+        "newName": "params"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetResult",
+          "shortId": "OooOOoo:I"
+        },
+        "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetResult",
+          "shortId": "OooOo00:Z"
+        },
+        "newName": "isCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetResult",
+          "shortId": "OooOo0:Ljava/lang/String;"
+        },
+        "newName": "responseData"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "OooOOoo:Ljava/lang/String;"
+        },
+        "newName": "sid"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "OooOo00:Ljava/lang/String;"
+        },
+        "newName": "cUserId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "OooOo0:Ljava/lang/String;"
+        },
+        "newName": "serviceToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "OooOo0O:Ljava/lang/String;"
+        },
+        "newName": "ssecurity"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "OooOo0o:J"
+        },
+        "newName": "timeDiff"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "OooOo:Ljava/lang/String;"
+        },
+        "newName": "domain"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.a3f",
+          "shortId": "Oooo0oo()I"
+        },
+        "newName": "commonReadUtf8CodePoint"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.a3f",
+          "shortId": "OoooO()Lokio/ByteString;"
+        },
+        "newName": "commonSnapshot"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.a3f",
+          "shortId": "OoooOOo()J"
+        },
+        "newName": "readHexadecimalUnsignedLong"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.a3f",
+          "shortId": "o0ooOO0([B)L_m_j/a3f;"
+        },
+        "newName": "from"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.a3f",
+          "shortId": "o0ooOoO([BII)L_m_j/a3f;"
+        },
+        "newName": "from"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.a3f$OooO00o",
+          "shortId": "OooO(J)I"
+        },
+        "newName": "commonSeek"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.by9",
+          "shortId": "OooO00o(Ljava/lang/String;)[B"
+        },
+        "newName": "decode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.by9",
+          "shortId": "OooO0Oo([B)Ljava/lang/String;"
+        },
+        "newName": "encode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.by9",
+          "shortId": "OooO0oO([BIII)Ljava/lang/String;"
+        },
+        "newName": "encodeBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.by9",
+          "shortId": "OooO0oO([BIII)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "gzipFlag"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.by9",
+          "shortId": "OooO0oO([BIII)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1310720
+        },
+        "newName": "start"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.by9",
+          "shortId": "OooO0oO([BIII)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1376256
+        },
+        "newName": "length"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.by9",
+          "shortId": "OooO0oO([BIII)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1441792
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.cy9",
+          "shortId": "OooO00o(J)Ljava/lang/String;"
+        },
+        "newName": "rand"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.cy9",
+          "shortId": "OooO0O0(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "method"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.cy9",
+          "shortId": "OooO0O0(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "path"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.cy9",
+          "shortId": "OooO0O0(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "sign"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.dy9",
+          "shortId": "\u003cinit\u003e([B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "rc4Key"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.dy9",
+          "shortId": "OooO00o([B)V"
+        },
+        "newName": "encryptDecrypt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.ey9",
+          "shortId": "\u003cinit\u003e([B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "rc4Key"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.ey9",
+          "shortId": "OooO00o(ZLjava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "processInput"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.ey9",
+          "shortId": "OooO00o(ZLjava/lang/String;)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "useCipher"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.ey9",
+          "shortId": "OooO00o(ZLjava/lang/String;)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "input"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.ey9",
+          "shortId": "OooO00o(ZLjava/lang/String;)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262146
+        },
+        "newName": "decodedBuf"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.ey9",
+          "shortId": "OooO0O0([B)[B"
+        },
+        "newName": "decrypt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.ey9",
+          "shortId": "OooO0OO(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "encrypt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.j51",
+          "shortId": "o0000OOo(Ljava/lang/String;)Lokhttp3/Request$Builder;"
+        },
+        "newName": "buildRequestClient"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.j51",
+          "shortId": "o00OO0(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "logW"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.j51",
+          "shortId": "o0ooOoO(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        "newName": "newString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.oq6",
+          "shortId": "OooO00o([B[B)[B"
+        },
+        "newName": "mergeArray"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.oq6",
+          "shortId": "OooO0Oo(Lcom/xiaomi/smarthome/core/entity/net/NetRequest;Ljava/lang/String;ZL_m_j/bq6;)L_m_j/cq6;"
+        },
+        "newName": "sendRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.oq6$OooO0O0",
+          "shortId": "onResponse(Lokhttp3/Call;Lokhttp3/Response;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262149
+        },
+        "newName": "respstr"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6",
+          "shortId": "OooO(Lcom/xiaomi/smarthome/core/entity/net/NetRequest;L_m_j/bq6;)L_m_j/cq6;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 21
+        },
+        "newName": "rc4Key"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6",
+          "shortId": "OooO(Lcom/xiaomi/smarthome/core/entity/net/NetRequest;L_m_j/bq6;)L_m_j/cq6;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131082
+        },
+        "newName": "headers"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6",
+          "shortId": "OooO(Lcom/xiaomi/smarthome/core/entity/net/NetRequest;L_m_j/bq6;)L_m_j/cq6;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131084
+        },
+        "newName": "randnonce_str"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6",
+          "shortId": "OooO(Lcom/xiaomi/smarthome/core/entity/net/NetRequest;L_m_j/bq6;)L_m_j/cq6;"
+        },
+        "newName": "sendRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6",
+          "shortId": "OooO(Lcom/xiaomi/smarthome/core/entity/net/NetRequest;L_m_j/bq6;)L_m_j/cq6;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196618
+        },
+        "newName": "unSignedrequestBody"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6",
+          "shortId": "OooO(Lcom/xiaomi/smarthome/core/entity/net/NetRequest;L_m_j/bq6;)L_m_j/cq6;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262148
+        },
+        "newName": "realRequestBody"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6",
+          "shortId": "OooO(Lcom/xiaomi/smarthome/core/entity/net/NetRequest;L_m_j/bq6;)L_m_j/cq6;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "request_params"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6",
+          "shortId": "OooO(Lcom/xiaomi/smarthome/core/entity/net/NetRequest;L_m_j/bq6;)L_m_j/cq6;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786436
+        },
+        "newName": "encrypted"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6",
+          "shortId": "OooO(Lcom/xiaomi/smarthome/core/entity/net/NetRequest;L_m_j/bq6;)L_m_j/cq6;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786439
+        },
+        "newName": "param"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6",
+          "shortId": "OooO0OO([B[B)[B"
+        },
+        "newName": "mergeArray"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6$OooO0O0",
+          "shortId": "onResponse(Lokhttp3/Call;Lokhttp3/Response;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 4
+        },
+        "newName": "request_id"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "_m_j.vq6$OooO0O0",
+          "shortId": "onResponse(Lokhttp3/Call;Lokhttp3/Response;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458754
+        },
+        "newName": "randnonce_str"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest",
+          "shortId": "\u003cinit\u003e(Lcom/xiaomi/smarthome/core/entity/net/NetRequest$OooO0O0;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "req"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xiaomi.smarthome.core.entity.net.NetRequest",
+          "shortId": "toString()Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "str"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xiaomi.smarthome.library.common.util.Version",
+          "shortId": "o0000OOo([B)[B"
+        },
+        "newName": "calculateSHA256Hash"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "sid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "cUserId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "serviceToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "ssecurity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "domain"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "timeDiff"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "OooO00o(Ljava/lang/String;)Lcom/xiaomi/youpin/login/entity/account/MiServiceTokenInfo;"
+        },
+        "newName": "getObject"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xiaomi.youpin.login.entity.account.MiServiceTokenInfo",
+          "shortId": "OooO0O0()Ljava/lang/String;"
+        },
+        "newName": "getJSON"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.ximalaya.ting.android.opensdk.util.Utils",
+          "shortId": "OooOOOO(L_m_j/v3f;)L_m_j/c3f;"
+        },
+        "newName": "fromBuffer"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "_m_j.vq6",
+      "subPath": "java",
+      "caret": 48203,
+      "view": {
+        "x": 6,
+        "y": 15192
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "_m_j.cy9",
+      "subPath": "java",
+      "caret": 936,
+      "view": {
+        "x": 0,
+        "y": 14
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "_m_j.ey9",
+      "subPath": "java",
+      "caret": 2901,
+      "view": {
+        "x": 0,
+        "y": 533
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "_m_j.oq6",
+      "subPath": "java",
+      "caret": 4109,
+      "view": {
+        "x": 0,
+        "y": 1356
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "_m_j.a3f",
+      "subPath": "java",
+      "caret": 33725,
+      "view": {
+        "x": 0,
+        "y": 13180
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "_m_j.h3f",
+      "subPath": "java",
+      "caret": 314,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.ximalaya.ting.android.opensdk.util.Utils",
+      "subPath": "java",
+      "caret": 14035,
+      "view": {
+        "x": 0,
+        "y": 6094
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "_m_j.q3f",
+      "subPath": "java",
+      "caret": 401,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "_m_j.dy9",
+      "subPath": "java",
+      "caret": 251,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "activeTab": 0,
+  "cacheDir": "base.apk.cache",
+  "enableLiveReload": false,
+  "searchHistory": [
+    "FormBody",
+    "rc4_hash_",
+    "new byte[256",
+    "new byte[2",
+    "rc4_hash"
+  ]
+}
